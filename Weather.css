@@ -1,0 +1,52 @@
+.weather-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.city-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.fetch-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fetch-button:hover {
+    background-color: #0056b3;
+}
+
+.weather-summary, .daily-summary {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #e6f7ff;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
